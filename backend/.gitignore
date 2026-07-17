@@ -1,0 +1,30 @@
+# --- Node.js ---
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# --- Environment Variables (CRITICAL) ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- Build & Output ---
+dist/
+build/
+out/
+.next/
+
+# --- IDE & OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+
+# --- Tests & Coverage ---
+coverage/
+.nyc_output/
